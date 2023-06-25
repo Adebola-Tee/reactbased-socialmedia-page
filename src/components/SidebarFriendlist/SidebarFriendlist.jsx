@@ -1,5 +1,5 @@
 import React from 'react'
-import './SidebarFriendlist.css'
+import './sidebarFriendlist.css'
 const SidebarFriendlist = ({user}) => {
   return (
     <div>
