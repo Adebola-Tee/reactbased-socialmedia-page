@@ -1,0 +1,71 @@
+.post{
+    width:100%;
+    border-radius: 10px;
+    background-color: white;
+    margin: 30px 0;
+    -webkit-box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.53); 
+    box-shadow: 1px 1px 13px 0px rgba(0,0,0,0.53);
+}
+.post--wrapper{
+    padding: 10px;
+}
+.post--top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post--profilepicture{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.post--top-left{
+    display: flex;
+    align-items: center;
+}
+.post-top-username{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+.post--center{
+    margin: 20px 0;
+}
+.post--center--picture{
+    margin-top: 20px;
+}
+.post--center--picture{
+    width:100%;
+    max-height:500px;
+    object-fit: contain;
+    display: block;
+}
+.post--bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.post--bottom-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom--like--picture{
+    width:24px;
+    height:24px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.bottom--heart--picture{
+    width:40px;
+    height:30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.post-bottom-comment{
+    cursor: pointer;
+    border-bottom: 1px dashed gray;
+}

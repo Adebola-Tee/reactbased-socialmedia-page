@@ -1,0 +1,91 @@
+.topbar--container{
+  width:100%;
+  height: 50px;
+  background-color: blueviolet;
+  display: flex;
+  top:0px;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+.topbar--left{
+    flex:3;
+    margin-top: 2px;
+}
+.social--logo{
+    margin-left:20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-family: bold;
+}
+.topbar--center{
+    flex:5;
+    margin-top: 2px;
+    
+}
+.Search--container{
+    width: 500px;
+    height:25px;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: none;
+    background-color: white;
+    padding-top: 10px;
+    display: flex;
+    
+}
+.search--input{
+    width: 300px;
+    height:15px;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: none;
+}
+.search--input:focus{
+    outline: none;
+}
+.topbar--right{
+    flex:4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.class-links-items a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.top-icons{
+    display:flex;
+    
+}
+.topicons-items{
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+    color:white;
+}
+.topicons-number{
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    color:white;
+    position: absolute;
+    top:-5px;
+    right:-5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size:12px;
+
+}
+.profile-img{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
